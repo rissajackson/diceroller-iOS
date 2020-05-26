@@ -14,6 +14,15 @@
 		3059C8B8237656FF005FFA93 /* diceroller_finalproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3059C8B6237656FF005FFA93 /* diceroller_finalproject.xcdatamodeld */; };
 		3059C8BA23765701005FFA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3059C8B923765701005FFA93 /* Assets.xcassets */; };
 		3059C8BD23765701005FFA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3059C8BB23765701005FFA93 /* LaunchScreen.storyboard */; };
+		38435FE0237F5E9A00654178 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38435FDF237F5E9A00654178 /* Character.swift */; };
+		388A248D2389BEA8004710EF /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A248C2389BEA8004710EF /* Monster.swift */; };
+		38C9A7F2239AD8E600B88CB1 /* noBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9A7F1239AD8E600B88CB1 /* noBarViewController.swift */; };
+		38CCDD6C238378B100FD08A8 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCDD6B238378B100FD08A8 /* DiceViewController.swift */; };
+		38CCDD6E238378D500FD08A8 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCDD6D238378D500FD08A8 /* Dice.swift */; };
+		38CCDD70238378F900FD08A8 /* DiceGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCDD6F238378F900FD08A8 /* DiceGraphic.swift */; };
+		38F8A57E237CA27300948791 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F8A57D237CA27300948791 /* CharacterTableViewController.swift */; };
+		38F8A580237CA2DD00948791 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F8A57F237CA2DD00948791 /* CharacterTableViewCell.swift */; };
+		38F8A582237CA3FD00948791 /* AddCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F8A581237CA3FD00948791 /* AddCharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		3059C8B923765701005FFA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3059C8BC23765701005FFA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3059C8BE23765701005FFA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38435FDF237F5E9A00654178 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		388A248C2389BEA8004710EF /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		38C9A7F1239AD8E600B88CB1 /* noBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noBarViewController.swift; sourceTree = "<group>"; };
+		38CCDD6B238378B100FD08A8 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+		38CCDD6D238378D500FD08A8 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		38CCDD6F238378F900FD08A8 /* DiceGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGraphic.swift; sourceTree = "<group>"; };
+		38F8A57D237CA27300948791 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		38F8A57F237CA2DD00948791 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		38F8A581237CA3FD00948791 /* AddCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +79,16 @@
 				3059C8AD237656FF005FFA93 /* AppDelegate.swift */,
 				3059C8AF237656FF005FFA93 /* SceneDelegate.swift */,
 				3059C8B1237656FF005FFA93 /* ViewController.swift */,
+				38F8A57D237CA27300948791 /* CharacterTableViewController.swift */,
+				38435FDF237F5E9A00654178 /* Character.swift */,
+				38F8A57F237CA2DD00948791 /* CharacterTableViewCell.swift */,
 				3059C8B3237656FF005FFA93 /* Main.storyboard */,
+				38C9A7F1239AD8E600B88CB1 /* noBarViewController.swift */,
+				388A248C2389BEA8004710EF /* Monster.swift */,
+				38CCDD6B238378B100FD08A8 /* DiceViewController.swift */,
+				38CCDD6D238378D500FD08A8 /* Dice.swift */,
+				38CCDD6F238378F900FD08A8 /* DiceGraphic.swift */,
+				38F8A581237CA3FD00948791 /* AddCharacterViewController.swift */,
 				3059C8B923765701005FFA93 /* Assets.xcassets */,
 				3059C8BB23765701005FFA93 /* LaunchScreen.storyboard */,
 				3059C8BE23765701005FFA93 /* Info.plist */,
@@ -142,9 +169,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3059C8B2237656FF005FFA93 /* ViewController.swift in Sources */,
+				38CCDD6C238378B100FD08A8 /* DiceViewController.swift in Sources */,
+				38CCDD70238378F900FD08A8 /* DiceGraphic.swift in Sources */,
+				38CCDD6E238378D500FD08A8 /* Dice.swift in Sources */,
+				388A248D2389BEA8004710EF /* Monster.swift in Sources */,
+				38F8A57E237CA27300948791 /* CharacterTableViewController.swift in Sources */,
 				3059C8B8237656FF005FFA93 /* diceroller_finalproject.xcdatamodeld in Sources */,
+				38C9A7F2239AD8E600B88CB1 /* noBarViewController.swift in Sources */,
 				3059C8AE237656FF005FFA93 /* AppDelegate.swift in Sources */,
 				3059C8B0237656FF005FFA93 /* SceneDelegate.swift in Sources */,
+				38F8A582237CA3FD00948791 /* AddCharacterViewController.swift in Sources */,
+				38F8A580237CA2DD00948791 /* CharacterTableViewCell.swift in Sources */,
+				38435FE0237F5E9A00654178 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +323,12 @@
 		3059C8C223765701005FFA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG59Q6H52P;
 				INFOPLIST_FILE = diceroller_finalproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,10 +343,12 @@
 		3059C8C323765701005FFA93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG59Q6H52P;
 				INFOPLIST_FILE = diceroller_finalproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
